@@ -1,0 +1,40 @@
+{
+  "name": "forge-es6-module-playground",
+  "version": "1.0.0",
+  "description": "Forge Viewer sample project for playing ES6 module with the [Webpack](https://webpack.js.org/).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yiskang/forge-es6-module-playground.git"
+  },
+  "keywords": [
+    "es6",
+    "module",
+    "forge",
+    "viewer"
+  ],
+  "author": "Eason Kang <eason.kang@autodesk.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yiskang/es6-module-playground/issues"
+  },
+  "homepage": "https://github.com/yiskang/es6-module-playground#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.0.1",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "browser-sync": "^2.26.7",
+    "eslint": "^4.10.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sourcemaps": "^2.6.5",
+    "webpack": "^3.8.1",
+    "webpack-stream": "^4.0.0"
+  }
+}
